@@ -16,8 +16,9 @@ A simple, console-based chat application built in Java using socket programming.
 - Java Sockets
 - Multithreading
 
-## How to Run
+## Team Members
 
-1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/your-username/your-repo-name.git
+- Tejasv Agarwal
+- Daksh Sajwan
+- Raushan Raj
+- Ashutosh Pandey
