@@ -5,7 +5,7 @@ A simple, console-based chat application built in Java using socket programming.
 ## Features
 
 - Real-time message exchange between client and server
-- Supports multiple clients (one at a time)
+- Take message from server and display on client(Vice Verse)
 - Clean and minimal command-line interface
 - Java Socket and Multithreading based implementation
 
@@ -14,7 +14,6 @@ A simple, console-based chat application built in Java using socket programming.
 - Java
 - Java I/O Streams
 - Java Sockets
-- Multithreading
 
 ## Team Members
 
