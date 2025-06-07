@@ -1,6 +1,3 @@
-Here is a clean `README.md` code that you can **copy-paste directly** into your project folder:
-
----
 
 ```markdown
 # 💬 Java Console Chat Application
@@ -23,14 +20,14 @@ A simple multi-client chat system implemented using Java Sockets and multithread
 
 ## 🧠 Core Components
 
-| Feature                      | Description                                      |
-|-----------------------------|--------------------------------------------------|
-| Server/Client Setup         | Establish socket communication                  |
-| Message Broadcasting        | Send messages from one client to all others     |
-| Thread Handling             | Each client handled independently               |
-| Input Validation            | Ensures valid user input                        |
-| Error Handling              | Prevents crashes with safe coding practices     |
-| Modular Code                | Clean separation of logic                       |
+| Feature                  | Description                                      |
+|-------------------------|--------------------------------------------------|
+| Server/Client Setup     | Establish socket communication                   |
+| Message Broadcasting    | Send messages from one client to all others      |
+| Thread Handling         | Each client handled independently                |
+| Input Validation        | Ensures valid user input                         |
+| Error Handling          | Prevents crashes with safe coding practices      |
+| Modular Code            | Clean separation of logic                        |
 
 ---
 
@@ -76,7 +73,8 @@ Chat\_app2/
 ---
 
 ## 👥 Team Members
-Tejasv Agarwal   24SCSE1010152
-Daksh Sajwan 24SCSE1011382
-Ashutosh Pandey 24SCSE1010907
-Raushan Raj 24SCSE1011535
+
+**Tejasv Agarwal (24SCSE1010152), Daksh Sajwan (24SCSE1011382), Ashutosh Pandey (24SCSE1010907), Raushan Raj (24SCSE1011535)**
+
+---
+
