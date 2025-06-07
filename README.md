@@ -1,80 +1,81 @@
 
 ```markdown
-# 💬 Java Console Chat Application
+# 💬✨ JAVA CONSOLE CHAT APPLICATION
 
-A simple multi-client chat system implemented using Java Sockets and multithreading.
-
----
-
-## 🚀 Features
-
-- **Server-Client Setup**: Start server once, then connect multiple clients.
-- **Message Broadcasting**: Server sends a message to all connected clients.
-- **Multithreaded Communication**: Each client is handled by a separate thread.
-- **Input Validation**: Ensures valid integer inputs using `InputValidator`.
-- **Robust Error Handling**: Uses try-catch blocks to manage runtime issues.
-- **Modular Structure**: Separate classes for Server, Client, Handler, etc.
-- **Clear Documentation**: Inline comments and organized layout for easy understanding.
+> A multi-client console-based chat system using Java Sockets & Multithreading  
+> 🛠️ Developed with focus on modularity, error handling, and clean architecture
 
 ---
 
-## 🧠 Core Components
+## 🚀 FEATURES
 
-| Feature                  | Description                                      |
-|-------------------------|--------------------------------------------------|
-| Server/Client Setup     | Establish socket communication                   |
-| Message Broadcasting    | Send messages from one client to all others      |
-| Thread Handling         | Each client handled independently                |
-| Input Validation        | Ensures valid user input                         |
-| Error Handling          | Prevents crashes with safe coding practices      |
-| Modular Code            | Clean separation of logic                        |
+✅ **Server-Client Setup** – Start the server once and connect multiple clients  
+✅ **Message Broadcasting** – Messages from one client are sent to all others  
+✅ **Multithreaded Communication** – Each client runs in a separate thread  
+✅ **Input Validation** – Ensures valid integers using `InputValidator`  
+✅ **Robust Error Handling** – Try-catch blocks to avoid crashes  
+✅ **Modular Design** – Clear separation of concerns (Server, Client, Handler)  
+✅ **Clean Code** – Well-documented and structured codebase  
 
 ---
 
-## 🗂️ File Structure
+## 🧠 CORE COMPONENTS
+
+| 🧩 Component           | 🔍 Description                                       |
+|------------------------|------------------------------------------------------|
+| 🔌 Server/Client Setup | Establishes reliable socket communication            |
+| 🔁 Broadcasting        | Sends messages from one client to all connected peers|
+| 🧵 Thread Management   | Handles clients using Java Threads                   |
+| ✅ Input Validation     | Ensures only valid integer input is accepted        |
+| 🛡️ Error Handling       | Prevents crashes and unexpected termination         |
+| 🗃️ Modular Code         | Separated by responsibility for better maintenance |
+
+---
+
+## 📁 PROJECT STRUCTURE
 
 ```
 
 Chat\_app2/
-├── ChatServer.java         # Server: listens for clients and manages broadcast
-├── ChatClient.java         # Client: connects to server, sends/receives messages
-├── ClientHandler.java      # Handles each connected client (thread)
-├── InputValidator.java     # Validates user input
-├── Main.java               # Entry point: choose to run server or client
+├── ChatServer.java        # Server-side logic for handling clients
+├── ChatClient.java        # Client-side messaging interface
+├── ClientHandler.java     # Handles individual client sessions (Thread-based)
+├── InputValidator.java    # Validates numerical input
+├── Main.java              # Entry point: chooses between server/client mode
 
 ````
 
 ---
 
-## ⚙️ How to Run (VS Code or Terminal)
+## ⚙️ HOW TO RUN (VS CODE / TERMINAL)
 
-1. **Navigate to project folder:**
-   ```bash
-   cd path\to\Chat_app2
+1️⃣ Open terminal & navigate to the folder  
+```bash
+cd path\to\Chatting
 ````
 
-2. **Compile all Java files:**
+2️⃣ Compile all Java files
 
-   ```bash
-   javac *.java
-   ```
+```bash
+javac *.java
+```
 
-3. **Run the Main program:**
+3️⃣ Run the application
 
-   ```bash
-   java Main
-   ```
+```bash
+java Main
+```
 
-4. **Choose mode when prompted:**
+4️⃣ On prompt:
 
-   * Press `1` to start the server
-   * Press `2` to start a client (open multiple terminals for multiple clients)
+* Enter `1` to start the server
+* Enter `2` to start a client (you can open multiple terminals for more clients)
 
 ---
 
-## 👥 Team Members
+## 👥 TEAM MEMBERS
 
-**Tejasv Agarwal (24SCSE1010152), Daksh Sajwan (24SCSE1011382), Ashutosh Pandey (24SCSE1010907), Raushan Raj (24SCSE1011535)**
+> **Tejasv Agarwal (24SCSE1010152)**    **Daksh Sajwan (24SCSE1011382)**    **Ashutosh Pandey (24SCSE1010907)**    **Raushan Raj (24SCSE1011535)**
 
 ---
 
