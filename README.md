@@ -72,10 +72,3 @@ java Main
 * Enter `2` to start a client (you can open multiple terminals for more clients)
 
 ---
-
-## 👥 TEAM MEMBERS
-
-> **Tejasv Agarwal (24SCSE1010152)**    **Daksh Sajwan (24SCSE1011382)**    **Ashutosh Pandey (24SCSE1010907)**    **Raushan Raj (24SCSE1011535)**
-
----
-
